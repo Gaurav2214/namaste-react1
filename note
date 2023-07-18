@@ -1,2 +1,19 @@
-npm – Does not stans for node package manager
+NPM – Does not stands for node package manager
 Behind the scene it is managing all the things and works as a node package manager, it manages the packages but not stands for Node Package Manager.
+
+Package.json is a configuration for NPM. It keeps a track of one version of that package which is install in our system.
+
+~ (tilde) - It approximately equivalent to version i.e only accept new patch versions
+^ (caret) - Compatible with version, i.e., It accepts new minor patch versions.
+
+Package.json is differ from package-lock.json.
+
+Package-lock.json keeps a track of exact version of that package.
+
+Parcel is a bulder, it will help to minimize/optimize/bunduled our code like HTML, CSS, JS and make it a better way to push on production.
+
+Parcel is a beast. Parcel has its own dependencies thatswhy when we install only parcel, there lots 
+of module also install and their folder has been created in the node_modules folder.
+
+Whatever we can regenerate dont try to put it on git repository.
+Only we need to push package.json and package-lock.json on git repository, no need to push node_modules because we already have the exact version/configuration of all the packages in our package-lock.json file.

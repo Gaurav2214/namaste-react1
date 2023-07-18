@@ -17,3 +17,7 @@ of module also install and their folder has been created in the node_modules fol
 
 Whatever we can regenerate dont try to put it on git repository.
 Only we need to push package.json and package-lock.json on git repository, no need to push node_modules because we already have the exact version/configuration of all the packages in our package-lock.json file.
+
+To execute any package we need to write npx and then package name.
+npm - install package
+npx - excute package
